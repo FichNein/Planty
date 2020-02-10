@@ -18,6 +18,8 @@ document.getElementById("prev").addEventListener("click", function() {
         document.getElementById("desc").innerHTML = "Photo " + regex;
     }
 
+    console.log(picture)
+
 });  
 
 document.getElementById("next").addEventListener("click", function() {
@@ -37,4 +39,6 @@ document.getElementById("next").addEventListener("click", function() {
     document.getElementById("plant").src="../photos/" + regex + ".jpg";
     document.getElementById("desc").innerHTML = "Photo " + regex;
     
+    console.log(picture)
+
 });  
