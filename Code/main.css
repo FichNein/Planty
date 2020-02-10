@@ -49,3 +49,8 @@ button:hover {
 .next {
     grid-area: next;
 }
+
+.desc {
+    width: 90%;
+    margin: 2em auto auto;
+}
