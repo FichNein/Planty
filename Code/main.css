@@ -1,0 +1,51 @@
+html, body {
+    padding: none;
+    background-color: #e3e3e3;
+    margin: 0;
+}
+
+.topbar {
+    width: inherit;
+    height: 3em;
+    background-color: #ced9cf;
+}
+
+.title {
+    padding-left: 10px;
+    width: inherit;
+    margin: auto;
+}
+
+.photoblock {
+    margin: 2em auto auto;
+    display: grid;
+    width: 90%;
+    background-position-x: center;
+    grid-template-areas: "prev pic next";
+    grid-template-columns: 10% 80% 10%;
+    border: 2px black solid;
+}
+
+button {
+    border: none;
+    background-color: #ced9cf;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b8caba;
+}
+
+.prev {
+    grid-area: prev;
+    text-align: center;
+}
+
+.plant {
+    grid-area: pic;
+    width: 100%;
+}
+
+.next {
+    grid-area: next;
+}
